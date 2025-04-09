@@ -41,7 +41,7 @@ def options():
     if special_char_choice == 'yes':
         special_chars = [chr(char) for char in range(33, 48)] + \
                         [chr(char) for char in range(58, 65)] + \
-                        [chr(char) for char in range(91, 97)] + \
+                        [chr(char) for char in range(91, 97)]   + \
                         [chr(char) for char in range(123, 127)]
         wordlist.extend(special_chars)
 
